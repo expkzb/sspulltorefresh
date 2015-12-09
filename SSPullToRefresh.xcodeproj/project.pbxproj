@@ -7,11 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		368DECDC1B20B1EE0098369F /* SSPullToRefreshDefaultContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5FDF4A16B9E8600028CF6C /* SSPullToRefreshDefaultContentView.m */; };
 		368DECDD1B20B1EE0098369F /* SSPullToRefreshSimpleContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5FDF4C16B9E8600028CF6C /* SSPullToRefreshSimpleContentView.m */; };
 		368DECDE1B20B1EE0098369F /* SSPullToRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5FDF4E16B9E8600028CF6C /* SSPullToRefreshView.m */; };
 		368DECDF1B20B1F10098369F /* SSPullToRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E5FDF4816B9E8600028CF6C /* SSPullToRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		368DECE01B20B1F10098369F /* SSPullToRefreshDefaultContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E5FDF4916B9E8600028CF6C /* SSPullToRefreshDefaultContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		368DECE11B20B1F10098369F /* SSPullToRefreshSimpleContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E5FDF4B16B9E8600028CF6C /* SSPullToRefreshSimpleContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		368DECE21B20B1F10098369F /* SSPullToRefreshView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E5FDF4D16B9E8600028CF6C /* SSPullToRefreshView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -22,8 +20,6 @@
 		9E5FDF0F16B9E5230028CF6C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9E5FDF2516B9E57D0028CF6C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		9E5FDF4816B9E8600028CF6C /* SSPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSPullToRefresh.h; path = SSPullToRefresh/SSPullToRefresh.h; sourceTree = SOURCE_ROOT; };
-		9E5FDF4916B9E8600028CF6C /* SSPullToRefreshDefaultContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSPullToRefreshDefaultContentView.h; path = SSPullToRefresh/SSPullToRefreshDefaultContentView.h; sourceTree = SOURCE_ROOT; };
-		9E5FDF4A16B9E8600028CF6C /* SSPullToRefreshDefaultContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSPullToRefreshDefaultContentView.m; path = SSPullToRefresh/SSPullToRefreshDefaultContentView.m; sourceTree = SOURCE_ROOT; };
 		9E5FDF4B16B9E8600028CF6C /* SSPullToRefreshSimpleContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSPullToRefreshSimpleContentView.h; path = SSPullToRefresh/SSPullToRefreshSimpleContentView.h; sourceTree = SOURCE_ROOT; };
 		9E5FDF4C16B9E8600028CF6C /* SSPullToRefreshSimpleContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSPullToRefreshSimpleContentView.m; path = SSPullToRefresh/SSPullToRefreshSimpleContentView.m; sourceTree = SOURCE_ROOT; };
 		9E5FDF4D16B9E8600028CF6C /* SSPullToRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSPullToRefreshView.h; path = SSPullToRefresh/SSPullToRefreshView.h; sourceTree = SOURCE_ROOT; };
@@ -72,8 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				9E5FDF4816B9E8600028CF6C /* SSPullToRefresh.h */,
-				9E5FDF4916B9E8600028CF6C /* SSPullToRefreshDefaultContentView.h */,
-				9E5FDF4A16B9E8600028CF6C /* SSPullToRefreshDefaultContentView.m */,
 				9E5FDF4B16B9E8600028CF6C /* SSPullToRefreshSimpleContentView.h */,
 				9E5FDF4C16B9E8600028CF6C /* SSPullToRefreshSimpleContentView.m */,
 				9E5FDF4D16B9E8600028CF6C /* SSPullToRefreshView.h */,
@@ -99,7 +93,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				368DECDF1B20B1F10098369F /* SSPullToRefresh.h in Headers */,
-				368DECE01B20B1F10098369F /* SSPullToRefreshDefaultContentView.h in Headers */,
 				368DECE11B20B1F10098369F /* SSPullToRefreshSimpleContentView.h in Headers */,
 				368DECE21B20B1F10098369F /* SSPullToRefreshView.h in Headers */,
 			);
@@ -132,7 +125,7 @@
 		9E5FDF0216B9E4D70028CF6C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0710;
 				TargetAttributes = {
 					368DECC21B20B12F0098369F = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -173,7 +166,6 @@
 			files = (
 				368DECDE1B20B1EE0098369F /* SSPullToRefreshView.m in Sources */,
 				368DECDD1B20B1EE0098369F /* SSPullToRefreshSimpleContentView.m in Sources */,
-				368DECDC1B20B1EE0098369F /* SSPullToRefreshDefaultContentView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +220,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.sspulltorefresh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -282,6 +275,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.sspulltorefresh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -299,6 +293,7 @@
 		9E5FDF0616B9E4D70028CF6C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_TESTABILITY = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 			};
@@ -321,6 +316,7 @@
 				368DECD81B20B1300098369F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E5FDF0516B9E4D70028CF6C /* Build configuration list for PBXProject "SSPullToRefresh" */ = {
 			isa = XCConfigurationList;
